@@ -1,0 +1,63 @@
+.box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.align_btm-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.rounded {
+    border-radius: 10%;
+}
+
+.bordered {
+    border-style: solid;
+    border-color: black;
+}
+
+.border-thick {
+    border-width: 10px;
+}
+
+.border-thin {
+    border-width: 2px;
+}
+
+.hidden {
+    visibility: hidden;
+    display: none;
+}
+
+.centered-txt {
+    text-align: center;
+}
+
+.bg-silver {
+    background-color: silver;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.margin-3 {
+    margin: 3%;
+}
+
+.margin-8 {
+    margin: 8%;
+}

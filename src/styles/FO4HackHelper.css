@@ -1,0 +1,28 @@
+.screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formbox {
+    margin-top: 6%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(224, 216, 216);
+}
+
+.buttons {
+    margin-bottom: 3%;
+    margin-right: 12%;
+}
+
+.HH-Title {
+    -webkit-text-fill-color: silver;
+    -webkit-text-stroke: 1px black;
+}
+
+.screen-input {
+    margin-left: 10%;
+    margin-top: 3%;
+}

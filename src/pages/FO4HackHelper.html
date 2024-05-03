@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>FO4 Hack Helper</title>
+        <link rel="stylesheet" href="../styles/styles.css">
+        <link rel="stylesheet" href="../styles/FO4HackHelper.css">
+        <script src="../scripts/FO4HackHelper.js"></script>
+    </head>
+    <body>
+        <div class="screen box">
+            <div class="formbox box rounded bordered border-thick">
+                <h1 class="HH-Title centered-txt">Hack Helper</h1>
+
+                <div class="display box rounded bordered border-thin bg-green margin-8">
+                    <h3 class="centered-txt margin-3" id="screen-out-display">
+
+                    </h3>
+                    <div>
+                        <input type="text" name="word-input" id="word-input" class="screen-input width-80" placeholder="Enter a Word...">
+                    </div>
+                    <div>
+                        <input type="text" name="matches-input" id="matches" class="screen-input width-50 hidden" placeholder="Enter Number of Matches...">
+                    </div>
+                </div>
+                <div class="buttons align_btm-right">
+                    <button class="screen-btn bg-silver" id="reset" onclick="handleReset()">Reset</button>
+                    <button class="screen-btn bg-silver" id="submit" onclick="handleSubmit()">Enter</button>
+                    <button class="screen-btn bg-silver" id="done" onclick="handleDone()">Done</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
